@@ -5,6 +5,10 @@
       <map>
         <entry key="..\:/ucas/android_apps/shammel/app/src/main/res/layout/activity_main.xml" value="0.18840579710144928" />
         <entry key="..\:/ucas/android_apps/shammel/app/src/main/res/layout/layout_employee.xml" value="0.25416666666666665" />
+        <entry key="..\:/ucas/shammel/app/src/main/res/layout/activity_home.xml" value="0.24010416666666667" />
+        <entry key="..\:/ucas/shammel/app/src/main/res/layout/activity_images.xml" value="0.25416666666666665" />
+        <entry key="..\:/ucas/shammel/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/ucas/shammel/app/src/main/res/layout/activity_register.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>

@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.app.myapplication">
+    <uses-permission android:name = "android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -14,7 +15,18 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
-            android:name=".exam1.q1.MainActivity"
+            android:name=".exam2.q2.ImagesActivity"
+            android:exported="true" >
+
+        </activity>
+        <activity
+            android:name=".exam2.q1.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".exam2.q1.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".exam2.q1.LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,6 +34,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".exam1.q1.MainActivity"
+            android:exported="true"></activity>
     </application>
 
 </manifest>
